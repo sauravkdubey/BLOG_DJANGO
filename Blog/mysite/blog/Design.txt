@@ -1,0 +1,51 @@
+# DjangoBlog
+
+In our blog 
+
+					The features are: 
+					============
+
+
+					1. Post (Table in database)
+					2. Comment 
+					3. Author
+
+
+
+					Relation between our Tables
+					===============================
+					===============================
+
+					1. Post can have many categories, and a categories can have a many posts (Many to Many Relations)
+
+					2. author can have many post and a post can have a single author (one to many).
+
+					Attributes for tables
+					==============================
+					==============================
+
+					Post
+					======
+
+					1. title
+					2. created_date
+					3. published_date
+					4. text
+					5. Author
+
+					Comment
+					==========
+
+					1. Author
+					2. Post
+					3. text
+					4. post_date
+
+					Author
+					======
+
+					1. Author name
+					2. Authoe email
+					
+
+					

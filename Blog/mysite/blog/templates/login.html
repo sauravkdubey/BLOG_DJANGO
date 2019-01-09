@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form method="post" action="/posts/login/" class="post-form">
+        {% csrf_token %}
+        <label for="u">Username:</label>
+        <input type="text" name ="username" id = 'u'/>
+        <label for="p">Password:</label>
+        <input type="password" name ="pswd" id = 'p'/>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+
+{% endblock %}
